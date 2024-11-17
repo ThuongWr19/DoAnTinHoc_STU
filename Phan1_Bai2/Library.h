@@ -4,37 +4,37 @@ using namespace std;
 
 typedef int typeinfo;
 
-//SLL = SingleLinkedList, SLL_ptr = SingleLinkedList pointer
+//SLL = SingleLinkedList, SLLNode = SingleLinkedList pointer
 
 struct SinglyLinkedList {
 	typeinfo data;
 	SinglyLinkedList* next;
 };
-typedef SinglyLinkedList* SLL_ptr;
+typedef SinglyLinkedList* SLLNode;
 
-SLL_ptr SLL_makeNode(typeinfo data);
+SLLNode SLL_makeNode(typeinfo data);
 
-void SLL_Init(SLL_ptr& head);
-bool SLL_isEmpty(SLL_ptr head);
-int SLL_Length(SLL_ptr head);
+void SLL_Init(SLLNode& head);
+bool SLL_isEmpty(SLLNode head);
+int SLL_Length(SLLNode head);
 
-void SLL_Add_First(SLL_ptr& head, typeinfo data);
-void SLL_Add_Mid(SLL_ptr& head, typeinfo data, int pos);
-void SLL_Add_Last(SLL_ptr& head, typeinfo data);
+void SLL_Add_First(SLLNode& head, typeinfo data);
+void SLL_Add_Mid(SLLNode& head, typeinfo data, int pos);
+void SLL_Add_Last(SLLNode& head, typeinfo data);
 
-void SLL_Remove_First(SLL_ptr& head);
-void SLL_Remove_Mid(SLL_ptr& head, int pos);
-void SLL_Remove_Last(SLL_ptr& head);
+void SLL_Remove_First(SLLNode& head);
+void SLL_Remove_Mid(SLLNode& head, int pos);
+void SLL_Remove_Last(SLLNode& head);
 
-void SLL_Update_First(SLL_ptr& head,typeinfo data);
-void SLL_Update_Mid(SLL_ptr & head, typeinfo data, int pos);
-void SLL_Update_Last(SLL_ptr& head, typeinfo data);
+void SLL_Update_First(SLLNode& head,typeinfo data);
+void SLL_Update_Mid(SLLNode & head, typeinfo data, int pos);
+void SLL_Update_Last(SLLNode& head, typeinfo data);
 
-void SLL_Reverse(SLL_ptr& head);
+void SLL_Reverse(SLLNode& head);
 
-void SLL_Clear(SLL_ptr& head);
+void SLL_Clear(SLLNode& head);
 
-void SLL_Output_List(SLL_ptr head);
+void SLL_Output_List(SLLNode head);
 
 struct DoubleLinkedList {
 	typeinfo data;
@@ -42,33 +42,65 @@ struct DoubleLinkedList {
 	DoubleLinkedList* prev;
 };
 
-typedef DoubleLinkedList* DLL_ptr;
+typedef DoubleLinkedList* DLLNode;
 
-DLL_ptr DLL_makeNode(typeinfo data);
+DLLNode DLL_makeNode(typeinfo data);
 
-void DLL_Init(DLL_ptr& head);
-bool DLL_isEmpty(DLL_ptr head);
-int DLL_Length(DLL_ptr head);
+void DLL_Init(DLLNode& head);
+bool DLL_isEmpty(DLLNode head);
+int DLL_Length(DLLNode head);
 
-void DLL_Add_First(DLL_ptr& head, typeinfo data);
-void DLL_Add_Mid(DLL_ptr& head, typeinfo data, int pos);
-void DLL_Add_Last(DLL_ptr& head, typeinfo data);
+void DLL_Add_First(DLLNode& head, typeinfo data);
+void DLL_Add_Mid(DLLNode& head, typeinfo data, int pos);
+void DLL_Add_Last(DLLNode& head, typeinfo data);
 
-void DLL_Remove_First(DLL_ptr& head);
-void DLL_Remove_Mid(DLL_ptr& head, int pos);
-void DLL_Remove_Last(DLL_ptr& head);
+void DLL_Remove_First(DLLNode& head);
+void DLL_Remove_Mid(DLLNode& head, int pos);
+void DLL_Remove_Last(DLLNode& head);
 
-void DLL_Update_First(DLL_ptr& head, typeinfo data);
-void DLL_Update_Mid(DLL_ptr& head, typeinfo data, int pos);
-void DLL_Update_Last(DLL_ptr& head, typeinfo data);
+void DLL_Update_First(DLLNode& head, typeinfo data);
+void DLL_Update_Mid(DLLNode& head, typeinfo data, int pos);
+void DLL_Update_Last(DLLNode& head, typeinfo data);
 
-void DLL_Reverse(DLL_ptr& head);
+void DLL_Reverse(DLLNode& head);
 
-void DLL_Clear(DLL_ptr& head);
+void DLL_Clear(DLLNode& head);
 
-void DLL_Output_List(DLL_ptr head);
+void DLL_Output_List(DLLNode head);
+
+struct CircularLinkedList {
+	typeinfo data;
+	CircularLinkedList* next;
+};
+
+typedef CircularLinkedList* CLLNode;
+
+CLLNode CLL_makeNode(typeinfo data);
+
+void CLL_Init(CLLNode& head);
+bool CLL_isEmpty(CLLNode head);
+int CLL_Length(CLLNode head);
+
+void CLL_Add_First(CLLNode& head, typeinfo data);
+void CLL_Add_Mid(CLLNode& head, typeinfo data, int pos);
+void CLL_Add_Last(CLLNode& head, typeinfo data);
+
+void CLL_Remove_First(CLLNode& head);
+void CLL_Remove_Mid(CLLNode& head, int pos);
+void CLL_Remove_Last(CLLNode& head);
+
+void CLL_Update_First(CLLNode& head, typeinfo data);
+void CLL_Update_Mid(CLLNode& head, typeinfo data, int pos);
+void CLL_Update_Last(CLLNode& head, typeinfo data);
+
+void CLL_Reverse(CLLNode& head);
+
+void CLL_Clear(CLLNode& head);
+
+void CLL_Output_List(CLLNode head);
 
 void show_Menu_Main();
-void menu_Main(SLL_ptr& SLL_head, DLL_ptr& DLL_head);
-void menu_SLL(SLL_ptr& head);
-void menu_DLL(DLL_ptr& head);
+void menu_Main(SLLNode& SLL_head, DLLNode& DLL_head, CLLNode& CLL_head);
+void menu_SLL(SLLNode& head);
+void menu_DLL(DLLNode& head);
+void menu_CLL(CLLNode& head);

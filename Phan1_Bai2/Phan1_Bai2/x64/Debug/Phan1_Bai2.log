@@ -1,4 +1,2 @@
 ﻿  Menu.cpp
-D:\Thuong\University\DoAnTinHoc\Phan1_Bai2\Menu.cpp(48,20): warning C4101: 'pos': unreferenced local variable
-D:\Thuong\University\DoAnTinHoc\Phan1_Bai2\Menu.cpp(205,20): warning C4101: 'pos': unreferenced local variable
   Phan1_Bai2.vcxproj -> D:\Thuong\University\DoAnTinHoc\Phan1_Bai2\x64\Debug\Phan1_Bai2.exe
