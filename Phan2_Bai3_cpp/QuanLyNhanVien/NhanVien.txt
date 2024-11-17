@@ -1,0 +1,51 @@
+Nguyen Van Thuong, 11/09/2004, Binh Thuan, 1000000000, 9.9
+Hoang Van Phu, 17/02/1986, Hoa Binh, 3700000, 3.1
+Nguyen Thi Lien, 11/01/1989, Bac Lieu, 2500000, 2.7
+Pham Van Hung, 22/12/1990, Quang Tri, 3300000, 3.8
+Vu Thi Thao, 30/11/1988, Kon Tum, 4500000, 3.5
+Tran Thi Thuong, 18/10/1991, Gia Lai, 3600000, 3.4
+Nguyen Van Khanh, 14/09/1989, Nghe An, 4100000, 3.3
+Dang Thi Bich, 01/08/1990, Cao Bang, 2800000, 3.0
+Le Thi Hong, 10/07/1987, Thai Nguyen, 4000000, 3.2
+Pham Van Hai, 25/06/1992, Lai Chau, 2500000, 3.8
+Nguyen Thi Bao, 06/05/1986, Dong Thap, 4200000, 3.4
+Vu Van Thanh, 27/04/1988, Quang Ninh, 2700000, 3.5
+Tran Thi Bich, 12/03/1990, Thai Binh, 2900000, 3.2
+Le Van Khang, 15/02/1991, Phu Yen, 3400000, 4.0
+Pham Thi My, 31/01/1987, Dak Nong, 3600000, 3.0
+Nguyen Huu Minh, 20/12/1990, Phu Tho, 3100000, 2.8
+Hoang Thi Van, 05/11/1993, Tien Giang, 5200000, 3.8
+Tran Van Quang, 19/10/1986, Soc Trang, 4800000, 3.6
+Pham Thi Thu, 24/09/1989, An Giang, 3300000, 2.9
+Dang Van Lam, 14/08/1991, Ha Tinh, 2600000, 3.5
+Vu Thi Hoa, 02/07/1985, Hanoi, 3800000, 3.0
+Nguyen Thi Xuan, 09/06/1988, Vinh Long, 4000000, 3.3
+Le Minh Hoang, 22/05/1992, Quang Nam, 3100000, 4.0
+Pham Van Hanh, 07/04/1987, Yen Bai, 2500000, 3.0
+Dang Thi Nga, 16/03/1990, Quang Ngai, 4200000, 3.2
+Tran Huu Phuc, 28/02/1991, Binh Phuoc, 3300000, 3.6
+Nguyen Thi Quyen, 14/01/1986, Bac Kan, 2900000, 2.9
+Bui Van Linh, 12/12/1989, Lam Dong, 3200000, 2.8
+Le Thi Tuyet, 30/11/1987, Long An, 4400000, 3.3
+Dang Van Thai, 04/10/1988, Quang Binh, 4600000, 3.4
+Pham Thi Kim, 25/09/1990, Hai Duong, 2700000, 3.8
+Nguyen Van Quoc, 19/08/1989, Hanoi, 3800000, 3.1
+Vu Huu Cuong, 08/07/1991, Binh Dinh, 3300000, 2.7
+Tran Thi Mai Anh, 13/06/1992, Dong Nai, 4100000, 3.2
+Pham Van Tien, 11/05/1985, Bac Giang, 2900000, 3.5
+Nguyen Thi Hang, 01/04/1990, Ha Giang, 2600000, 2.6
+Hoang Van Duy, 18/03/1993, Dak Lak, 3400000, 3.0
+Tran Thi Kieu, 22/02/1987, Nam Dinh, 2800000, 2.7
+Le Huu Thang, 05/01/1991, Ninh Thuan, 4500000, 3.8
+Dang Ngoc Lan, 09/12/1988, Bac Ninh, 3900000, 3.1
+Pham Minh Long, 30/11/1989, Thanh Hoa, 3600000, 2.9
+Tran Thi Thuy, 17/10/1990, Hanoi, 2800000, 3.5
+Nguyen Van Toan, 03/09/1992, Binh Duong, 4000000, 3.3
+Bui Thi Minh Chau, 21/08/1985, Can Tho, 3000000, 3.7
+Hoang Duc Anh, 10/07/1993, Quang Nam, 3500000, 4.0
+Vu Ngoc Bich, 06/06/1989, Vung Tau, 3100000, 2.8
+Dang Minh Tuan, 12/05/1987, Haiphong, 3200000, 3.6
+Pham Thi Dung, 25/04/1990, Quang Tri, 2500000, 3.0
+Le Van Hieu, 19/03/1992, HCMC, 2700000, 3.4
+Nguyen Thi Hoa, 14/02/1988, Hanoi, 3000000, 2.5
+Tran Van Khoa, 01/01/1991, Hue, 2550000, 3.0
